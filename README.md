@@ -42,5 +42,5 @@ Add it to the relevant `ToolCategory`, or create a new one.
 ## Notes
 
 - This tool is intended for Windows only. Error handling designed for all Operating Systems, but only Windows enviroment configured so far.
-- Some tools (Mimikatz, credential tools) may trigger AV — add exceptions as needed for your specific environment.
+- Some tools (Mimikatz, credential tools) may trigger AV add exceptions as needed for your specific environment.
 - No tool is bundled. All downloads happen at runtime from official sources.
