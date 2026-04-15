@@ -1,12 +1,12 @@
 [package]
-name = "toolkit-dl"
+name = "elementary"
 version = "0.1.0"
 edition = "2021"
 description = "Interactive CLI downloader for Windows forensics and sysadmin tools"
 authors = ["LFR"]
 
 [[bin]]
-name = "toolkit-dl"
+name = "elementary"
 path = "src/main.rs"
 
 [dependencies]
