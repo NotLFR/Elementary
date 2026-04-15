@@ -7,50 +7,27 @@ A terminal-based interactive downloader for Windows forensics, sysadmin, and sec
 
 - Fully interactive TUI (keyboard-driven, no mouse needed)
 - Organised into tool categories with multi-select
-- Downloads directly to `~/Downloads/toolkit-dl/`
-- Live progress bars during download
-- No config files required — just pick and download
+- Downloads directly to `~/Downloads/elementary/`
 
-## Included Tools
 
-| Category | Tools |
-|---|---|
-| 🔍 Forensics & Analysis | WinPrefetchView, System Informer, Autoruns, Process Monitor, Volatility3 |
-| 🌐 Network | Wireshark, TCPView, Nmap, CurrPorts |
-| 💾 Disk & File | WinDirStat, Everything, CrystalDiskInfo, FTK Imager |
-| 🔧 Registry & System | RegRipper, Registry Explorer, Sysinternals Suite |
-| 🔑 Password & Credentials | Mimikatz, PasswordFox, WebBrowserPassView |
-
-## Keybindings
-
-| Key | Action |
-|---|---|
-| `↑` / `↓` | Navigate |
-| `Enter` | Open category |
-| `Space` | Toggle tool selection |
-| `A` | Toggle all tools in category |
-| `D` | Go to download confirmation |
-| `Esc` / `B` | Go back |
-| `Q` | Quit |
 
 ## Build
 
 Requirements: [Rust toolchain](https://rustup.rs/) (stable, 1.75+)
 
 ```bash
-git clone https://github.com/yourhandle/toolkit-dl
 cd toolkit-dl
 cargo build --release
 ```
 
-Binary will be at `target/release/toolkit-dl.exe` (Windows) or `target/release/toolkit-dl` (other).
+Binary will be at `target/release/elementary.exe` 
 
 ## Run
 
 ```bash
 cargo run --release
 # or directly:
-./target/release/toolkit-dl
+./target/release/elementary
 ```
 
 ## Adding Your Own Tools
